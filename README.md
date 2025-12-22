@@ -1,11 +1,17 @@
   # 🌾 KhetMitra
 
-![Hack The Winter](winter.png)
+<h1 align="center">🌾 KhetMitra</h1>
 
-**Hackathon:** Hack The Winter – The Second Wave (Angry Bird Edition)  
-**Organised by:** Graphic Era Hill University (GEHU), Bhimtal  
-**Problem Statement:** Open Innovation
-**Team Name:** AI(Aloo Intelligence) 🥔🧠
+<p align="center">
+  <img src="winter.png" alt="Hack The Winter" />
+</p>
+
+<p align="center">
+  <b>Hackathon:</b> Hack The Winter – The Second Wave (Angry Bird Edition)<br>
+  <b>Organised by:</b> Graphic Era Hill University (GEHU), Bhimtal<br>
+  <b>Problem Statement:</b> Open Innovation<br>
+  <b>Team Name:</b> Aloo Intelligence (AI) 🥔🧠
+</p>
 
 ---
 
