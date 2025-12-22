@@ -77,12 +77,16 @@ not just for a demo or presentation.
 <!-- WHAT KHETMITRA PROVIDES -->
 <h2>🧩 What KhetMitra Provides</h2>
 
+<table width="100%">
+<tr>
+<td width="65%" valign="top">
+
 <h3>🔍 Diagnose</h3>
 
 <ul>
   <li>Soil health check using our <b>IoT sensor kit</b></li>
-  <li>Measures NPK, soil moisture, temperature</li>
-  <li>Uses satellite & weather data</li>
+  <li>Measures <b>NPK, soil moisture, temperature</b></li>
+  <li>Uses <b>satellite & weather data</b></li>
   <li>Sensors are <b>rugged, reusable, long-life</b></li>
 </ul>
 
@@ -91,6 +95,17 @@ not just for a demo or presentation.
 Satellite – Connecting with Satellite...<br/>
 Real-time Sensors & Environment Alerts
 </p>
+
+</td>
+
+<td width="35%" align="center" valign="middle">
+  <img src="assets/satellite.png" width="90" style="margin-bottom:14px;" /><br/>
+  <img src="assets/NPK.png" width="90" />
+</td>
+</tr>
+</table>
+
+<hr/>
 
 <!-- CROP HEALTH SENSORS -->
 <table width="100%">
