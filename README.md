@@ -74,13 +74,77 @@ not just for a demo or presentation.
 
 ---
 
-## 🧩 What KhetMitra Provides
+<!-- WHAT KHETMITRA PROVIDES -->
+<h2>🧩 What KhetMitra Provides</h2>
 
-### 🔍 Diagnose
-- Soil health check using our **IoT sensor kit**
-- Measures NPK, soil moisture, temperature
-- Can also use satellite & weather data
-- Sensors are **rugged, reusable, and long-life**
+<h3>🔍 Diagnose</h3>
+
+<ul>
+  <li>Soil health check using our <b>IoT sensor kit</b></li>
+  <li>Measures NPK, soil moisture, temperature</li>
+  <li>Uses satellite & weather data</li>
+  <li>Sensors are <b>rugged, reusable, long-life</b></li>
+</ul>
+
+<p>
+🌾 <b>खेत का लाइव निदान (Live Farm Diagnosis)</b><br/>
+Satellite – Connecting with Satellite...<br/>
+Real-time Sensors & Environment Alerts
+</p>
+
+<!-- CROP HEALTH SENSORS -->
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
+
+<h4>🌱 Crop Health Sensors</h4>
+<i>(Will not work without device / hardware)</i>
+
+<ul>
+  <li>🌡️ Soil Temperature: 0</li>
+  <li>💧 Soil Moisture: 0</li>
+  <li>🧪 Soil pH: 0</li>
+  <li>🟢 Nitrogen (N): 0</li>
+  <li>🟡 Phosphorus (P): 0</li>
+  <li>🔵 Potassium (K): 0</li>
+</ul>
+
+</td>
+
+<td width="40%" align="center" valign="middle">
+<img src="assets/3333.png" style="max-width:380px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ENVIRONMENT ALERTS -->
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
+
+<h4>⚡ Environment Alerts</h4>
+<i>(Will not work without device / hardware)</i>
+
+<ul>
+  <li>🌡️ Area Temperature: 0</li>
+  <li>📏 Pressure: 0</li>
+  <li>⛰️ Altitude: 0</li>
+  <li>☔ Rain Alert: No</li>
+  <li>💡 Light Intensity: 0</li>
+  <li>⚡ Wind Alert: 0</li>
+  <li>🐄 Grazing Alert: No</li>
+</ul>
+
+</td>
+
+<td width="40%" align="center" valign="middle">
+<img src="assets/4444.png" style="max-width:380px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
+
 
 ---
 
