@@ -4,7 +4,8 @@
 
 **Hackathon:** Hack The Winter – The Second Wave (Angry Bird Edition)  
 **Organised by:** Graphic Era Hill University (GEHU), Bhimtal  
-**Problem Statement:** Open Innovation  
+**Problem Statement:** Open Innovation
+**Team Name:** AI(Aloo Intelligence) 🥔🧠
 
 ---
 
