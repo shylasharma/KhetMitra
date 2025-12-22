@@ -1,39 +1,48 @@
 <table align="center">
   <tr>
     <td>
-      <img 
-        src="assets/4bd67612-7926-4565-9cd5-231b9539bec3.png" 
-        alt="KhetMitra Logo" 
-        width="64"
-      />
+      <img src="assets/4bd67612-7926-4565-9cd5-231b9539bec3.png" width="64" />
     </td>
-    <td style="padding-left: 12px; font-size: 42px; font-weight: 700; vertical-align: middle;">
+    <td style="padding-left:12px;font-size:42px;font-weight:700;vertical-align:middle;">
       🌾 KhetMitra
     </td>
   </tr>
 </table>
 
-
-
 <p align="center">
-  <img src="assets/winter.png" alt="Hack The Winter" />
+  <img src="assets/winter.png" />
 </p>
 
 <p align="center">
-  <b>Hackathon:</b> Hack The Winter – The Second Wave (Angry Bird Edition)<br>
-  <b>Organised by:</b> Graphic Era Hill University (GEHU), Bhimtal<br>
-  <b>Problem Statement:</b> Open Innovation<br>
-  <b>Team Name:</b> Aloo Intelligence (AI) 🥔🧠
+<b>Hackathon:</b> Hack The Winter – The Second Wave (Angry Bird Edition)<br/>
+<b>Organised by:</b> Graphic Era Hill University (GEHU), Bhimtal<br/>
+<b>Problem Statement:</b> Open Innovation<br/>
+<b>Team Name:</b> Aloo Intelligence (AI) 🥔🧠
 </p>
 
----
+<h2>👋 What is KhetMitra?</h2>
 
-## 👋 What is KhetMitra?
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
 
-KhetMitra is a **one-stop solution for farmers**.  
-Instead of using multiple apps, guesswork, or costly services, KhetMitra helps farmers **understand their soil, choose the right crop, and make better decisions** using simple technology.
+<b>KhetMitra</b> is a one-stop solution for farmers.  
+Instead of using multiple apps, guesswork, or costly services,  
+KhetMitra helps farmers <b>understand their soil</b>, choose the right crop,  
+and make better decisions using simple technology.
 
-We are building this keeping **real farmers and real fields** in mind — not just for a demo or presentation.
+<br/><br/>
+
+We are building this keeping <b>real farmers and real fields</b> in mind —  
+not just for a demo or presentation.
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+<img src="assets/1111.png" style="max-width:420px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
 
 ---
 
