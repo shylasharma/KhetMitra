@@ -2,7 +2,7 @@
   <tr>
     <td>
       <img 
-        src="4bd67612-7926-4565-9cd5-231b9539bec3.png" 
+        src="assets/4bd67612-7926-4565-9cd5-231b9539bec3.png" 
         alt="KhetMitra Logo" 
         width="64"
       />
@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <img src="winter.png" alt="Hack The Winter" />
+  <img src="assets/winter.png" alt="Hack The Winter" />
 </p>
 
 <p align="center">
