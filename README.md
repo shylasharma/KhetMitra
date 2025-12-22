@@ -186,27 +186,47 @@ Real-time Sensors & Environment Alerts
 ---
 <hr/>
 
-<table width="100%">
+<!-- ===================== CROP DATA ===================== -->
+<table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td width="55%" valign="top">
+
+<td width="55%" valign="top" style="padding-right:20px;">
+
 <h3>📊 Crop Data</h3>
+
+<p>
+Plan cultivation confidently with <b>step-by-step crop intelligence</b>.
+</p>
+
 <ul>
-<li>Crop info</li>
-<li>Fertilizer & water guide</li>
-<li>Seasonal tips</li>
+  <li>📌 Detailed crop information</li>
+  <li>💧 Water & fertilizer guidance</li>
+  <li>📆 Season-wise best practices</li>
 </ul>
 
+<div style="padding:12px;border-left:4px solid #2e7d32;background:#f5faf5;border-radius:6px;">
 <b>Crop Details & Cultivation Guide</b><br/>
-Explore requirements & best practices 🌱
+Select a crop → View growth stages, irrigation plan & best practices 🌱
+</div>
+
 </td>
 
 <td width="45%" align="center">
-<img src="assets/6666.png" style="max-width:420px;width:100%;border-radius:12px;"/>
+
+<img src="assets/6666.png"
+     style="max-width:420px;width:100%;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin-bottom:12px;"/>
+
+<img src="assets/7777.png"
+     style="max-width:420px;width:100%;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);"/>
+
 </td>
 </tr>
 </table>
 
 <hr/>
+
+
+
 ---
 
 ### 💰 BazaarBhav
