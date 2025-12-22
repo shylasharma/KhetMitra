@@ -184,12 +184,29 @@ Real-time Sensors & Environment Alerts
 </table>
 
 ---
+<hr/>
 
-### 📊 Crop Data
-- Basic crop information
-- Fertilizer & water guidance
-- Seasonal tips
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+<h3>📊 Crop Data</h3>
+<ul>
+<li>Crop info</li>
+<li>Fertilizer & water guide</li>
+<li>Seasonal tips</li>
+</ul>
 
+<b>Crop Details & Cultivation Guide</b><br/>
+Explore requirements & best practices 🌱
+</td>
+
+<td width="45%" align="center">
+<img src="assets/6666.png" style="max-width:420px;width:100%;border-radius:12px;"/>
+</td>
+</tr>
+</table>
+
+<hr/>
 ---
 
 ### 💰 BazaarBhav
