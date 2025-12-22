@@ -46,16 +46,31 @@ not just for a demo or presentation.
 
 ---
 
-## 🚜 Why We Built This
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
 
-Most farmers face these problems:
-- No proper soil testing before sowing
-- Crop selection based on guess or tradition
-- No clarity on market prices
-- Expensive devices that don’t last long
-- Apps that are hard to use
+<h2>🚜 Why We Built This</h2>
 
-KhetMitra tries to solve **all of this at one place**.
+<p>Most farmers face these problems:</p>
+<ul>
+  <li>No proper soil testing before sowing</li>
+  <li>Crop selection based on guess or tradition</li>
+  <li>No clarity on market prices</li>
+  <li>Expensive devices that don’t last long</li>
+  <li>Apps that are hard to use</li>
+</ul>
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+<img src="assets/2222.png"
+     style="max-width:420px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
+
+**KhetMitra** tries to solve **all of this at one place**.
 
 ---
 
