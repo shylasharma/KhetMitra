@@ -1,4 +1,13 @@
-<h1 align="center">🌾 KhetMitra</h1>
+<h1 align="center">
+  <img 
+    src="4bd67612-7926-4565-9cd5-231b9539bec3.png" 
+    alt="KhetMitra Logo" 
+    width="70"
+    style="vertical-align: middle;"
+  />
+  &nbsp; 🌾 KhetMitra
+</h1>
+
 
 <p align="center">
   <img src="winter.png" alt="Hack The Winter" />
