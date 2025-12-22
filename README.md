@@ -163,12 +163,25 @@ Real-time Sensors & Environment Alerts
 
 ---
 
-### 🌱 Crop Recommendation
-- Crop suggestion based on:
-  - Soil condition
-  - Location & season
-  - Weather and satellite data
-- AI helps reduce risk of wrong crop selection
+<h3>🌱 Crop Recommendation</h3>
+
+<ul>
+  <li>Crop suggestion based on:</li>
+  <ul>
+    <li>Soil condition</li>
+    <li>Location & season</li>
+    <li>Weather and satellite data</li>
+  </ul>
+  <li><b>AI helps reduce risk of wrong crop selection</b></li>
+</ul>
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+<img src="assets/5555.png" style="max-width:420px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
 
 ---
 
