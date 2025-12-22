@@ -1,6 +1,6 @@
 # 🌾 KhetMitra
 
-![Hack The Winter](./assets/hack-the-winter.png)
+![Hack The Winter](winter.png)
 
 **Hackathon:** Hack The Winter – The Second Wave (Angry Bird Edition)  
 **Organised by:** Graphic Era Hill University (GEHU), Bhimtal  
