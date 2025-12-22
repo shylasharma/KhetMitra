@@ -1,12 +1,18 @@
-<h1 align="center">
-  <img 
-    src="4bd67612-7926-4565-9cd5-231b9539bec3.png" 
-    alt="KhetMitra Logo" 
-    width="70"
-    style="vertical-align: middle;"
-  />
-  &nbsp; 🌾 KhetMitra
-</h1>
+<table align="center">
+  <tr>
+    <td>
+      <img 
+        src="4bd67612-7926-4565-9cd5-231b9539bec3.png" 
+        alt="KhetMitra Logo" 
+        width="64"
+      />
+    </td>
+    <td style="padding-left: 12px; font-size: 42px; font-weight: 700; vertical-align: middle;">
+      🌾 KhetMitra
+    </td>
+  </tr>
+</table>
+
 
 
 <p align="center">
