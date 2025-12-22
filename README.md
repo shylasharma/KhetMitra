@@ -1,5 +1,3 @@
-  # 🌾 KhetMitra
-
 <h1 align="center">🌾 KhetMitra</h1>
 
 <p align="center">
