@@ -229,30 +229,122 @@ Select a crop → View growth stages, irrigation plan & best practices 🌱
 
 ---
 
-### 💰 BazaarBhav
-- Nearby mandi prices
-- Helps farmers decide **when and where to sell**
-- Reduces dependency on middlemen
+<hr/>
+
+<!-- ===================== BAZAARBHAV ===================== -->
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td width="55%" valign="top" style="padding-right:20px;">
+<h3>💰 BazaarBhav</h3>
+
+<p>
+<b>Live mandi prices</b> to decide the best selling time.
+</p>
+
+<ul>
+<li>📍 Nearby mandi rates</li>
+<li>📈 Compare prices</li>
+<li>⏰ Sell at peak profit</li>
+</ul>
+
+<div style="padding:12px;border-left:4px solid #8e6c1f;background:#fff8e1;border-radius:6px;">
+🌾 <b>Apna Mandi Daam Dekho</b><br/>
+Select <i>State → District → Commodity</i>  
+to view live mandi prices 📊
+</div>
+</td>
+
+<td width="45%" align="center">
+<img src="assets/8888.png"
+     style="max-width:420px;width:100%;border-radius:12px;
+     box-shadow:0 4px 12px rgba(0,0,0,0.08);"/>
+<div style="font-size:13px;color:#555;margin-top:6px;">
+Live mandi price dashboard
+</div>
+</td>
+</tr>
+</table>
+
+<hr/>
+
+
 
 ---
 
-### 🎥 KM-Studio
-- Learning section for farmers
-- Simple guides and visuals
-- Easy to understand content
+<hr/>
+
+<!-- ===================== KM-STUDIO ===================== -->
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+<h3>🎥 KM-Studio</h3>
+<ul>
+<li>YouTube Shorts-style learning</li>
+<li>Sensor & app usage guides</li>
+<li>Visual & local-language content</li>
+</ul>
+
+<div style="padding:12px;border-left:4px solid #d32f2f;background:#fff5f5;border-radius:6px;">
+▶️ <b>Short learning videos for farmers</b><br/>
+Easy steps to use KhetMitra kits 🚜
+</div>
+</td>
+
+<td width="45%" align="center">
+<img src="assets/9999.png" style="max-width:420px;width:100%;border-radius:12px;" />
+</td>
+</tr>
+</table>
+
+<hr/>
+
+<!-- ===================== SHOP ===================== -->
+<h3>🛒 Shop</h3>
+
+<table width="100%">
+<tr>
+<td width="55%">
+<ul>
+<li>Farming tools</li>
+<li>KhetMitra IoT kits</li>
+<li>Verified products</li>
+</ul>
+
+<div style="padding:12px;border-left:4px solid #1565c0;background:#f3f8ff;border-radius:6px;">
+🛍️ Buy sensors & tools directly — no middlemen
+</div>
+</td>
+
+<td width="45%" align="center">
+<img src="assets/sell.png" style="max-width:420px;width:100%;border-radius:12px;"/>
+</td>
+</tr>
+</table>
+
+<hr/>
+
 
 ---
 
-### 🛒 Shop
-- Farming tools & essentials
-- KhetMitra IoT kits
-- Verified products only
+<table width="100%">
+<tr>
+<td width="55%">
+<ul>
+<li>Simple onboarding</li>
+<li>Farmer-friendly support</li>
+<li>Language-friendly help</li>
+</ul>
 
----
+<div style="padding:12px;border-left:4px solid #6a1b9a;background:#f3e5f5;border-radius:6px;">
+📞 Farmers get instant help for device, app & farming queries
+</div>
+</td>
 
-### 🆘 Help
-- Simple help & support system
-- Easy onboarding for farmers
+<td width="45%" align="center">
+<img src="assets/help.png" style="max-width:420px;width:100%;border-radius:12px;"/>
+</td>
+</tr>
+</table>
 
 ---
 
