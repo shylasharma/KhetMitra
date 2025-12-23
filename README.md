@@ -22,7 +22,7 @@
 
 <p align="center">
   📄 <b>Hackathon Presentation</b><br/>
-  <a href="assets/Hack_the_Winter.pdf" target="_blank" style="font-size:16px;font-weight:600;">
+  <a href="assets/hack_the_winter.pdf" target="_blank" style="font-size:16px;font-weight:600;">
     👉 Click here to view the project presentation
   </a>
 </p>
