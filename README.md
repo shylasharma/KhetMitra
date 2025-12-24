@@ -20,6 +20,15 @@
 <b>Team Name:</b> Aloo Intelligence (AI) 🥔🧠
 </p>
 
+<p align="center">
+  📄 <b>Hackathon Presentation</b><br/>
+  <a href="assets/hack_the_winter.pdf" target="_blank" style="font-size:16px;font-weight:600;">
+    👉 Click here to view the project presentation
+  </a>
+</p>
+
+<hr/>
+
 <h2>👋 What is KhetMitra?</h2>
 
 <table width="100%">
