@@ -367,22 +367,70 @@ Easy steps to use KhetMitra kits 🚜
 6. Farmer checks results on app/dashboard  
 
 ---
+<hr/>
 
-## 🌍 Sustainability Focus
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
 
-- Better crop selection → less loss
-- Optimized water & fertilizer usage
-- Soil-friendly farming
-- Long-life devices reduce e-waste
+<h2>🌍 Sustainability Focus</h2>
+
+<ul>
+  <li>Better crop selection → less loss</li>
+  <li>Optimized water & fertilizer usage</li>
+  <li>Soil-friendly farming</li>
+  <li>Long-life devices reduce e-waste</li>
+</ul>
+
+<div style="padding:12px;border-left:4px solid #2e7d32;background:#f5faf5;border-radius:6px;">
+♻️ Sustainable farming with smart decisions
+</div>
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+<img src="assets/11.png"
+     style="max-width:420px;width:100%;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);" />
+</td>
+</tr>
+</table>
+
 
 ---
 
 ## 🛠 Feasibility
 
-**Hardware**
-- Low-cost IoT sensors
-- Rough & tough for farm conditions
-- Serviceable and reusable
+<hr/>
+
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+
+<h2>🛠 Feasibility</h2>
+
+<h4>Hardware</h4>
+<ul>
+  <li>Low-cost IoT sensors</li>
+  <li>Rough & tough for farm conditions</li>
+  <li>Serviceable and reusable</li>
+</ul>
+
+<h4>Software</h4>
+<ul>
+  <li>Simple UI</li>
+  <li>Farmer-friendly design</li>
+  <li>Works with limited internet</li>
+</ul>
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+<img src="assets/00.png"
+     style="max-width:420px;width:100%;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);" />
+</td>
+</tr>
+</table>
+
 
 **Software**
 - Simple UI
