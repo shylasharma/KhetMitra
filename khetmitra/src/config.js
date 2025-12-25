@@ -1,0 +1,2 @@
+export const BASE_URL = "https://khetmitra-be.onrender.com";
+n
