@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=2ECC71&center=true&vCenter=true&width=600&lines=Hey+there%2C+we+are+Aloo+Intelligence+🥔🧠;4+Aloo+coming+to+Bhimtal+🚜;Building+AI-powered+Smart+Farming+🌱;From+Soil+to+Smart+Decisions" />
+</p>
+
+<p align="center">
 <b>Hackathon:</b> Hack The Winter – The Second Wave (Angry Bird Edition)<br/>
 <b>Organised by:</b> Graphic Era Hill University (GEHU), Bhimtal<br/>
 <b>Problem Statement:</b> Open Innovation<br/>
