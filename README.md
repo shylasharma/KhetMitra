@@ -336,7 +336,7 @@ Easy steps to use KhetMitra kits 🚜
 ---
 
 <!-- ===================== SHOP ===================== -->
-<h3>🛒 Help </h3>
+<h3>Help </h3>
 
 <table width="100%">
 <tr>
