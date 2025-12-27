@@ -32,6 +32,11 @@
 </p>
 
 <hr/>
+<p>
+  Visit our Aloo 🥔 Farm - https://khetmitra.live/ 👨🏽‍🌾
+</p>
+
+<hr/>
 
 <h2>👋 What is KhetMitra?</h2>
 
