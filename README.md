@@ -329,7 +329,7 @@ Easy steps to use KhetMitra kits 🚜
 </td>
 
 <td width="45%" align="center">
-<img src="khetmitra/src/assets/sell.png" style="max-width:420px;width:100%;border-radius:12px;"/>
+<img src="khetmitra/src/assets/sel.png" style="max-width:420px;width:100%;border-radius:12px;"/>
 </td>
 </tr>
 </table>
