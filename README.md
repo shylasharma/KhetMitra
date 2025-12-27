@@ -8,7 +8,7 @@
     </td>
   </tr>
 </table>
-
+<!--  -->
 <p align="center">
   <img src="khetmitra/src/assets/winter.png" />
 </p>
