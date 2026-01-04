@@ -201,7 +201,6 @@ Real-time Sensors & Environment Alerts
 </tr>
 </table>
 
----
 <hr/>
 
 <!-- ===================== CROP DATA ===================== -->
@@ -243,12 +242,6 @@ Select a crop → View growth stages, irrigation plan & best practices 🌱
 
 <hr/>
 
-
-
----
-
-<hr/>
-
 <!-- ===================== BAZAARBHAV ===================== -->
 <table width="100%" cellpadding="0" cellspacing="0">
 <tr>
@@ -282,12 +275,6 @@ Live mandi price dashboard
 </td>
 </tr>
 </table>
-
-<hr/>
-
-
-
----
 
 <hr/>
 
@@ -341,9 +328,6 @@ Easy steps to use KhetMitra kits 🚜
 
 <hr/>
 
-
----
-
 <!-- ===================== SHOP ===================== -->
 <h3>Help </h3>
 
@@ -367,8 +351,6 @@ Easy steps to use KhetMitra kits 🚜
 </tr>
 </table>
 
----
-
 ## ⚙️ How It Works (Simple Flow)
 
 1. Farmer installs KhetMitra sensor in the field  
@@ -378,7 +360,6 @@ Easy steps to use KhetMitra kits 🚜
 5. AI recommends suitable crops  
 6. Farmer checks results on app/dashboard  
 
----
 <hr/>
 
 <table width="100%">
@@ -406,11 +387,6 @@ Easy steps to use KhetMitra kits 🚜
 </td>
 </tr>
 </table>
-
-
----
-
-## 🛠 Feasibility
 
 <hr/>
 
@@ -442,12 +418,6 @@ Easy steps to use KhetMitra kits 🚜
 </td>
 </tr>
 </table>
-
-
-**Software**
-- Simple UI
-- Farmer-friendly design
-- Works with limited internet
 
 ---
 ### 🧩 Project Architecture & Code Flow
