@@ -231,7 +231,7 @@ Select a crop → View growth stages, irrigation plan & best practices 🌱
 
 <td width="45%" align="center">
 
-<img src="khetmitra/src/assets/666.png"
+<img src="khetmitra/src/assets/6666.png"
      style="max-width:420px;width:100%;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin-bottom:12px;"/>
 
 <!--<img src="assets/7777.png"
