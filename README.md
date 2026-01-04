@@ -443,8 +443,6 @@ Easy steps to use KhetMitra kits 🚜
 - Farmer community feature
 - Government schemes & subsidy info
 
----
-
 <hr/>
 
 ## 🧠 Why KhetMitra?
