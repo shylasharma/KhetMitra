@@ -460,4 +460,4 @@ Easy steps to use KhetMitra kits 🚜
 KhetMitra is not just an idea — it’s a **practical farming companion**.  
 Our goal is to make farming **less risky, more informed, and more sustainable** using simple and reliable technology.
 
-> _From soil diagnosis to smart decisions — KhetMitra stands with farmers._
+> _From soil diagnosis to smart decisions — KhetMitra always stands with farmers._
