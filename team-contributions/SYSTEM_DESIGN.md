@@ -1,212 +1,99 @@
-<div align="center">
+<!-- ===== KHETMITRA SYSTEM DESIGN (ANIMATED / COMPACT) ===== -->
 
-# 🌱⚡ KHETMITRA
-## AI × IoT × Smart Farming Engine
+<style>
+/* Lightweight animation + tech vibe (GitHub-safe) */
+.fade { animation: fadeIn 1.1s ease-in; }
+.slide { animation: slideUp .9s ease-out; }
+.pulse { animation: pulse 2.2s infinite; }
+@keyframes fadeIn { from {opacity:0} to {opacity:1} }
+@keyframes slideUp { from {transform:translateY(14px); opacity:0} to {transform:none; opacity:1} }
+@keyframes pulse { 0%{opacity:.85} 50%{opacity:1} 100%{opacity:.85} }
+.card { border:1px solid #1f2937; border-radius:14px; padding:14px; margin:14px 0; background:#0b1220; }
+.center { text-align:center }
+.badge { display:inline-block; padding:4px 10px; border-radius:999px; border:1px solid #334155; margin:4px }
+.hr { height:1px; background:#1f2937; margin:18px 0 }
+</style>
 
-🚜💨 **Soil → Sensors → Cloud → AI → Farmer**
+<div class="center fade">
+  <h1>🌱⚡ KHETMITRA</h1>
+  <p class="pulse">AI × IoT Smart Farming — <b>Soil → Sensor → Cloud → AI → Farmer</b></p>
+  <span class="badge">IoT</span><span class="badge">AI</span><span class="badge">Cloud</span><span class="badge">Scalable</span>
+</div>
+
+<div class="hr"></div>
+
+<div class="card slide">
+<h3>System Snapshot</h3>
+
+Soil → Sensors → ESP32 → APIs → AI Engine → Mobile/Web
+
+
+<p class="center"><i>Visual Map</i></p>
+<p class="center"><img src="flow1.png" width="88%"></p>
+</div>
+
+<div class="card slide">
+<h3>Flow-1: IoT Data Capture</h3>
+
+- NPK + Moisture sensors read soil parameters  
+- ESP32 aggregates readings  
+- SD-card fallback when network drops  
+- Auto-sync on connectivity restore  
+
+<p class="center"><img src="flow2.png" width="88%"></p>
+</div>
+
+<div class="card slide">
+<h3>Flow-2: Backend & Data Core</h3>
+
+- REST APIs ingest sensor data  
+- Validation + normalization  
+- MongoDB stores time-series & history  
+- Secure access for AI & apps  
+
+<p class="center"><img src="flow3.png" width="88%"></p>
+</div>
+
+<div class="card slide">
+<h3>Flow-3: AI Decision Engine</h3>
+
+- Soil data → ML models  
+- Context reasoning (crop, water, fertilizer)  
+- Explainable outputs for farmers  
+
+<p class="center"><img src="flow4.png" width="88%"></p>
+</div>
+
+<div class="card fade">
+<h3>Data Model (Compact ER)</h3>
+
+
+
+User → Farm → Sensor → SoilReading → Recommendation → SustainabilityScore
 
 </div>
 
----
+<div class="card fade">
+<h3>Tech Used</h3>
 
-## 🎯 MISSION
-Build a **real-time, scalable, intelligent agriculture system** that transforms raw soil data into **actionable AI-driven farming decisions**.
-
----
-
-## 🧠 WHAT IS KHETMITRA?
-KhetMitra is a **next-gen smart farming platform** combining:
-- 📟 IoT Sensors
-- ☁️ Cloud Backend
-- 🤖 AI Decision Engine
-- 📱 Farmer-friendly Apps
-
-> **Think Angry-Birds energy, but for farming tech.**
-
----
-
-## 🗺️ SYSTEM OVERVIEW (BIRD-EYE VIEW)
-
-🌾 SOIL
-↓
-📟 NPK + MOISTURE SENSORS
-↓
-🧠 ESP32 (OFFLINE / ONLINE)
-↓
-☁️ BACKEND APIs
-↓
-🤖 AI BRAIN
-↓
-📱 FARMER APP | 🌐 WEB DASHBOARD
-
-
-🖼️ Diagram: `flow1.png`
-
----
-
-## ⚡ FLOW-1: IOT SENSOR ATTACK MODE
-
-
-
-[NPK SENSOR] [MOISTURE SENSOR]
-\ /
-\ /
-→ 🧠 ESP32 →
-|
-💾 SD CARD (BACKUP)
-|
-🌐 INTERNET / HOTSPOT
-
-
-🔥 FEATURES
-- Offline data storage
-- Auto-sync when internet returns
-- Zero data loss
-- Low-power & reliable
-
-🖼️ Diagram: `flow2.png`
-
----
-
-## ☁️ FLOW-2: BACKEND POWER CORE
-
-
-
-📟 ESP32
-↓
-🌐 API GATEWAY
-↓
-🔐 AUTH + VALIDATION
-↓
-🗄️ MONGODB ATLAS
-↓
-🤖 AI ENGINE
-
-
-🛠️ TECH STACK
-- Node.js
-- Express.js
-- MongoDB Atlas
-- JWT Security
-- REST APIs
-
-🖼️ Diagram: `flow3.png`
-
----
-
-## 🤖 FLOW-3: AI DECISION ENGINE (FINAL BOSS)
-
-
-
-📊 SOIL DATA
-↓
-🧮 ML MODELS
-↓
-🧠 GEMINI REASONING
-↓
-🌱 CROP RECOMMENDATION
-💧 IRRIGATION PLAN
-🧪 FERTILIZER ADVICE
-📈 SUSTAINABILITY SCORE
-
-
-⚙️ AI OUTPUTS
-- Crop selection
-- Yield prediction
-- Water optimization
-- Fertilizer control
-- Explainable decisions
-
-🖼️ Diagram: `flow4.png`
-
----
-
-## 🧬 ENTITY RELATIONSHIP MAP (DATA DNA)
-
-
-
-👤 USER
-└── 🌾 FARM
-└── 📟 SENSOR
-└── 📊 SOIL_READING
-└── 🤖 RECOMMENDATION
-└── 📈 SUSTAINABILITY_SCORE
-
-
-🧠 CLEAN • SCALABLE • REAL-WORLD
-
----
-
-## 📱 APPLICATION LAYER
-
-### 🚜 FARMER MOBILE APP
-- Android (Kotlin)
-- Big icons
-- Multilingual
-- Real-time alerts
-
-### 🌐 WEB DASHBOARD
-- React.js
-- Charts & trends
-- Admin analytics
-- AI insights
-
----
-
-## 📈 SCALABILITY MODE 🚀
-
-🧱 BACKEND
-- Stateless APIs
-- Horizontal scaling
-- Load balancers
-
-🗄️ DATABASE
-- Sharding
-- Indexed queries
-- Read replicas
-
-🤖 AI
-- Async processing
-- Batch inference
-- Cached predictions
-
----
-
-## 🛡️ FAIL-SAFE SYSTEM
-
-✔ Offline SD backup  
-✔ Retry & auto-sync  
-✔ Graceful API failure  
-✔ Monitoring & logs  
-
-> **System adapts, never breaks.**
-
----
-
-## 🧰 TECHNOLOGY STACK
-
-| LAYER | TECH |
-|-----|-----|
+| Layer | Stack |
+|---|---|
 | IoT | ESP32, NPK Sensors |
 | Backend | Node.js, Express |
-| Database | MongoDB Atlas |
+| DB | MongoDB Atlas |
 | AI | TensorFlow, Gemini API |
-| Frontend | React.js, Kotlin |
-| Cloud | AWS / Azure |
+| Frontend | React, Kotlin |
+</div>
 
----
+<div class="card fade">
+<h3>Scale & Reliability</h3>
 
-## 👥 TEAM POWER
+- Stateless APIs (horizontal scale)  
+- DB indexing + sharding  
+- Async AI processing  
+- Offline capture + retry sync  
+</div>
 
-🧠 **Nitish Sheoran** – Architecture, Backend, AI  
-🎨 **Sonal Tyagi** – UI/UX, Frontend  
-🔌 **Nikhil Raghav** – IoT & Hardware  
-📊 **Narayan Prasad** – Research & Analysis  
-
----
-
-## 🏁 FINAL WORD
-**KhetMitra is not a demo.  
-It’s a deployable, scalable, farmer-ready system.**
-
-🌱⚡ **Tech that actually works on the ground.**
+<div class="center pulse">
+<b>Result:</b> Clean, scalable, farmer-ready system powered by real flows.
+</div>
