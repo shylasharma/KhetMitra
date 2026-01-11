@@ -1,156 +1,173 @@
-# 🌱 KhetMitra – End-to-End System Design & Architecture
+# 🌱 KhetMitra – Complete System Design & Architecture
 
-## Overview
-KhetMitra is an AI-powered smart farming platform designed to assist Indian farmers with **data-driven crop recommendations, yield prediction, sustainability scoring, and multilingual support** using IoT + AI/ML + Cloud technologies.
+## 1. Introduction
+KhetMitra is an **AI-driven smart agriculture platform** that leverages **IoT sensors, cloud infrastructure, and AI models** to provide **crop recommendations, soil health analysis, irrigation planning, and sustainability insights** for farmers.
 
-The system integrates **real-time soil data**, **AI decision-making**, and **mobile/web delivery** to create a scalable, reliable, and farmer-friendly solution.
+This document explains the **complete system architecture**, **data flow**, **entity relationships**, **technology stack**, and **scalability strategy** using the provided flow diagrams.
 
 ---
 
-## 🧩 System Components
+## 2. High-Level System Architecture
 
-### 1. IoT & Data Collection Layer
-- Soil Sensors: Moisture, pH, NPK
+The overall system consists of four major layers:
+1. IoT & Sensor Layer  
+2. Backend & Cloud Layer  
+3. AI & Decision Engine  
+4. User Application Layer  
+
+📌 **Architecture Diagram**  
+![System Architecture](flow1.png)
+
+---
+
+## 3. IoT & Sensor Data Flow
+
+### Components
+- NPK Sensor
+- Soil Moisture Sensor
 - ESP32 Microcontroller
-- SD Card (Offline Storage)
-- Wi-Fi / 4G Connectivity
+- Local SD Card Storage
+- Wi-Fi / Mobile Hotspot
 
-**Function**
-- Collects real-time soil parameters
-- Stores data locally during network failure
-- Syncs data to cloud when connectivity is restored
+### Working
+1. Sensors collect soil parameters (N, P, K, moisture).
+2. ESP32 reads sensor data at fixed intervals.
+3. Data is:
+   - Stored locally on SD card (offline mode).
+   - Sent to backend server when internet is available.
+4. Failed transmissions are retried automatically.
 
-📌 *Diagram Reference*: `flow2.png`
-
----
-
-### 2. Cloud & Backend Layer
-- Node.js + Express REST APIs
-- MongoDB Atlas (Cloud Database)
-- Secure API Gateway
-- Authentication & Rate Limiting
-
-**Function**
-- Receives sensor data from ESP32
-- Stores structured & historical data
-- Serves data to AI engine and frontend apps
-- Ensures data security and scalability
+📌 **IoT Data Flow Diagram**  
+![IoT Flow](flow2.png)
 
 ---
 
-### 3. AI/ML Processing Layer
-- Python-based AI Engine
-- TensorFlow / Keras models
-- Gemini API for reasoning & advisory logic
+## 4. Backend & API Architecture
 
-**Capabilities**
-- Crop Recommendation
-- Yield & Profit Prediction
-- Fertilizer & Irrigation Planning
-- Sustainability Score Calculation
+### Backend Responsibilities
+- Accept sensor data via REST APIs
+- Validate and normalize incoming data
+- Store structured data in database
+- Expose APIs for frontend & AI engine
+- Handle authentication & rate limiting
 
-📌 *Diagram Reference*: `flow1.png`
+### Tech Stack
+- Node.js + Express.js
+- MongoDB Atlas
+- RESTful APIs
+- JWT Authentication
+
+📌 **Backend Flow Diagram**  
+![Backend Flow](flow3.png)
 
 ---
 
-### 4. Application Layer
-#### 📱 Mobile App
-- Kotlin (Android)
-- Multilingual support (Hindi, English, Regional)
-- Farmer-friendly UI
+## 5. AI Decision & Recommendation Engine
 
-#### 🌐 Web Dashboard
+### AI Responsibilities
+- Crop recommendation based on soil NPK
+- Yield prediction
+- Fertilizer & irrigation advisory
+- Sustainability scoring
+
+### Working
+1. Backend sends processed data to AI engine.
+2. ML models analyze soil & historical data.
+3. Gemini API is used for **context-aware reasoning** and **explainable recommendations**.
+4. Results are sent back to backend APIs.
+
+📌 **AI & Decision Flow Diagram**  
+![AI Flow](flow4.png)
+
+---
+
+## 6. Entity Relationship (ER) Design
+
+### Core Entities
+- User
+- Farm
+- Sensor
+- SoilReading
+- CropRecommendation
+- SustainabilityScore
+
+### Relationships
+- One User → Multiple Farms
+- One Farm → Multiple Sensors
+- Sensors → Generate SoilReadings
+- SoilReadings → Produce CropRecommendations
+- Recommendations → Generate Sustainability Scores
+
+---
+
+## 7. Application Layer
+
+### Mobile Application
+- Android (Kotlin)
+- Multilingual support
+- Simple farmer-friendly UI
+
+### Web Dashboard
 - React.js
-- Material UI
-- Redux for state management
+- Real-time data visualization
+- Admin & analytics view
 
-**Features**
-- View soil health & crop insights
-- Receive AI recommendations
-- Monitor sustainability score
-- Chatbot-based guidance
-
-📌 *Diagram Reference*: `flow3.png`
+### Features
+- Live soil health monitoring
+- Crop recommendation display
+- Advisory notifications
+- Sustainability insights
 
 ---
 
-## 🔄 System Workflow
+## 8. Scalability Strategy
 
-1. Sensors collect soil data
-2. ESP32 sends data to cloud (or stores offline)
-3. Backend APIs store and validate data
-4. AI engine processes data & generates insights
-5. Recommendations delivered to mobile & web apps
-6. Feedback loop improves AI predictions
-
-📌 *Diagram Reference*: `flow4.png`
-
----
-
-## 📈 Scalability & Growth Handling
-
-### Horizontal Scaling
-- Stateless backend APIs
-- Load balancers
+### Backend Scaling
+- Stateless APIs
+- Horizontal scaling using load balancers
 - Auto-scaling cloud instances
 
 ### Database Scaling
-- MongoDB Atlas sharding
+- MongoDB sharding
 - Indexed queries
 - Read replicas
 
-### AI Scalability
-- Asynchronous processing queues
+### AI Scaling
+- Asynchronous processing
+- Batch predictions
 - Model caching
-- Batch prediction support
 
 ---
 
-## 🛡️ Fault Tolerance & Reliability
+## 9. Fault Tolerance & Reliability
 
-- Offline SD Card backup on IoT device
-- Retry & sync mechanism
-- API rate limiting
-- Health checks & monitoring
-- Graceful degradation for AI services
-
----
-
-## 👥 Team Contributions
-
-### 👨‍💻 Nitish Sheoran – Team Lead
-- System architecture design
-- Backend API & database schema
-- IoT data flow integration
-- AI decision logic & Gemini API integration
-- Scalability & deployment strategy
-
-### 👩‍💻 Sonal Tyagi
-- Frontend UI/UX design
-- Mobile & web user experience
-- Multilingual accessibility planning
-
-### 👨‍💻 Nikhil Raghav
-- IoT hardware setup
-- Sensor calibration & ESP32 integration
-- Data reliability testing
-
-### 👨‍💻 Narayan Prasad
-- Research & documentation
-- AI model research support
-- Market & impact analysis
+- Offline SD card storage on IoT devices
+- Automatic retry mechanism
+- Graceful API failure handling
+- Monitoring & logging
+- Secure data transmission
 
 ---
 
-## 🌾 Impact & Benefits
+## 10. Technology Stack Summary
 
-- Increased crop yield
-- Reduced farming costs
-- Sustainable farming practices
-- AI-powered decision making
-- Empowerment of small & marginal farmers
+| Layer | Technology |
+|-----|-----------|
+| IoT | ESP32, NPK Sensors |
+| Backend | Node.js, Express |
+| Database | MongoDB Atlas |
+| AI | TensorFlow, Gemini API |
+| Frontend | React.js, Kotlin |
+| Cloud | AWS / Azure |
 
 ---
 
-## 📂 Repository Structure
+## 11. Conclusion
 
+KhetMitra is designed as a **scalable, reliable, and intelligent agriculture platform** that integrates **real-time IoT data**, **AI-based decision making**, and **cloud-native architecture** to empower farmers with actionable insights.
+
+The provided architecture ensures:
+- High availability
+- Fault tolerance
+- Easy scalability
+- Real-world deployment readiness
