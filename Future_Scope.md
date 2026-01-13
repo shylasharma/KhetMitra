@@ -14,6 +14,12 @@
 
 ---
 
+> 🥔 **Aloo Promise to the Organisers**  
+> We are working **day and night** to deliver the **best possible solution** for our shortlisted Problem Statement.  
+> **4 Aloo. One mission. Real-world impact.**
+
+---
+
 ## 🚜 Planned Future Enhancements
 
 - **Dedicated Farmer Portal** for crop, soil & advisory insights  
@@ -37,13 +43,6 @@
 - Enable **data-driven farming decisions**  
 - Reduce crop loss through **early detection & prevention**  
 - Build a **scalable, affordable, farmer-friendly platform**  
-
----
-
-> 🥔 **Aloo Promise to the Organisers**  
->  
-> We are working **day and night** to deliver the **best possible solution** for our shortlisted Problem Statement.  
-> **4 Aloo. One mission. Real-world impact.**
 
 ---
 
