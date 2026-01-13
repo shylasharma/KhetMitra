@@ -43,9 +43,3 @@
 - Enable **data-driven farming decisions**  
 - Reduce crop loss through **early detection & prevention**  
 - Build a **scalable, affordable, farmer-friendly platform**  
-
----
-
-<p align="center">
-  <b>Not a pre-built project — a solution in progress 🌾</b>
-</p>
