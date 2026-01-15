@@ -33,7 +33,8 @@
 
 <hr/>
 <p>
-  Visit our Aloo 🥔 Farm - https://khetmitra.live/ 👨🏽‍🌾
+  Visit our Aloo 🥔 Farm - https://khetmitra.live/ 👨🏽‍🌾 <br/>
+  Backend link - https://github.com/iNitishSheoran/KhetMitra-BE
 </p>
 
 <hr/>
