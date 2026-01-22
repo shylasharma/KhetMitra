@@ -93,7 +93,7 @@
 </p>
 
 ---
-
+<!-- 
 ### 🤖 Nikhil Raghav  
 #### AI Model Development
 
@@ -110,7 +110,7 @@
 
 <p>
   <img src="https://skillicons.dev/icons?i=python"/>
-</p>
+</p> -->
 
 ---
 
