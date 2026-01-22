@@ -10,7 +10,7 @@
 </table>
 <!--  -->
 <p align="center">
-  <img src="khetmitra/src/assets/winter.png" />
+  <img src="khetmitra/src/assets/aiforall.png" />
 </p>
 
 <p align="center">
