@@ -14,19 +14,19 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=2ECC71&center=true&vCenter=true&width=600&lines=Hey+there%2C+we+are+Aloo+Intelligence+🥔🧠;4+Aloo+coming+to+Bhimtal+🚜;Building+AI-powered+Smart+Farming+🌱;From+Soil+to+Smart+Decisions" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=2ECC71&center=true&vCenter=true&width=600&lines=Hey+there%2C+we+are+Aloo+Intelligence+🥔🧠;3+Aloo+coming+building+🚜;Building+AI-powered+Smart+Farming+🌱;From+Soil+to+Smart+Decisions" />
 </p>
 
 <p align="center">
-<b>Hackathon:</b> Hack The Winter – The Second Wave (Angry Bird Edition)<br/>
-<b>Organised by:</b> Graphic Era Hill University (GEHU), Bhimtal<br/>
-<b>Problem Statement:</b> Open Innovation<br/>
-<b>Team Name:</b> Aloo Intelligence (AI) 🥔🧠
+<b>Hackathon:</b> AI for All – India’s Open Data & AI-Readiness Challenge<br/>
+<b>Organised for:</b> nationwide online hackathon by Factly in collaboration with Meta, aimed at identifying innovative, open-source solutions<br/>
+<b>Problem Statement:</b> AI for Social Impact <br/>
+<b>Team Name:</b> (AI) Aloo Intelligence 🥔🧠
 </p>
 
 <p align="center">
   📄 <b>Hackathon Presentation</b><br/>
-  <a href="khetmitra/src/assets/hack_the_winter.pdf" target="_blank" style="font-size:16px;font-weight:600;">
+  <a href="khetmitra/src/assets/ai_for_all.pdf" target="_blank" style="font-size:16px;font-weight:600;">
     👉 Click here to view the project presentation
   </a>
 </p>
