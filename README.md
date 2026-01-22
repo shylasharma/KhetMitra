@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
     <td>
-      <img src="khetmitra/src/assets/aiforall.png" width="64" />
+     <img src="khetmitra/src/assets/4bd67612-7926-4565-9cd5-231b9539bec3.png" width="64" />
     </td>
     <td style="padding-left:12px;font-size:42px;font-weight:700;vertical-align:middle;">
       🌾 KhetMitra
